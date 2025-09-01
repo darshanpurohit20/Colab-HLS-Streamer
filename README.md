@@ -28,7 +28,7 @@
 
 1. **Open the Colab Notebook**:
 
-   [HLS Media Streamer Notebook](Your-Notebook-Link.ipynb)
+   [HLS Media Streamer Notebook](movie_player.ipynb)
 
 2. **Run all cells** – it will set up the environment, download videos, convert them to HLS format, and start the Flask server.  
 
