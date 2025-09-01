@@ -24,16 +24,33 @@
 
 ---
 
+
 ## How to Run
 
 1. **Open the Colab Notebook**:
 
-   [HLS Media Streamer Notebook](movie_player.ipynb)
+   [HLS Media Streamer Notebook](Your-Notebook-Link.ipynb)
 
 2. **Run all cells** – it will set up the environment, download videos, convert them to HLS format, and start the Flask server.  
 
-3. Open your browser and navigate to the local server address shown in Colab output (e.g., `http://127.0.0.1:9192`) to browse and stream videos.
+3. Open your browser and navigate to the **local tunnel link** shown in the Colab output (e.g., `https://xxxxxx.tunnel.com`) to browse and stream videos.
 
 ---
 
-## Project Structure
+
+
+
+## How it Works
+
+1. Users enter a video URL and optional custom name in the notebook frontend.  
+2. The notebook downloads the video in the background using threads.  
+3. FFmpeg converts the video to HLS format (`.ts` segments + `.m3u8` playlist).  
+4. Flask serves the videos dynamically, and the frontend lists available videos for streaming.  
+5. Users can stream videos directly from the browser or manage them (delete, rename).
+
+---
+
+## Author
+
+**Darshan Purohit** – [GitHub](https://github.com/darshanpurohit20)
+
