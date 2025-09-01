@@ -35,7 +35,9 @@
 
 2. **Run all cells** – it will set up the environment, download videos, convert them to HLS format, and start the Flask server.  
 
-3. Open your browser and navigate to the **local tunnel link** shown in the Colab output (e.g., `https://xxxxxx.tunnel.com`) to browse and stream videos.
+3. Inside  your Colab and navigate to the **local tunnel link** shown in the Colab output (e.g., `https://xxxxxx.tunnel.com`).  
+   To access the tunnel, you need to **paste your Colab session IP** in the local tunnel setup (e.g., `34.31.X.X`).
+
 
 ---
 
