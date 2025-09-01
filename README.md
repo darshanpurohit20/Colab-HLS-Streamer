@@ -24,7 +24,9 @@
 
 ---
 
+##Screenshot
 
+![Upload Page](images.png)
 ## How to Run
 
 1. **Open the Colab Notebook**:
